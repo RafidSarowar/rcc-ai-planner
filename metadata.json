@@ -1,0 +1,5 @@
+{
+  "name": "TigerTracks",
+  "description": "An AI-powered application to generate a personalized first-semester course schedule for students at Riverside City College (RCC) based on their major and transfer preferences.",
+  "requestFramePermissions": []
+}

@@ -1,6 +1,20 @@
-# rcc-ai-planner
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/drive/1vRqcGZLy0TZ2-8Bsc1kyGogzOaHDDl-A
+
+## Run Locally
+
+**Prerequisites:**  Node.js
 
 
-TigerTracks – Built during my first hackathon with 3 peers. An AI-powered planner that generates personalized first-semester course schedules for RCC students based on major and transfer goals.
-
-TigerTracks was created at my first hackathon with three teammates (Angelo Bisquera, Munnir Khiar, and [your name here]). We wanted to solve a real problem for RCC students: navigating majors, GE, and transfer requirements. I focused on building the [insert your key contribution: e.g., frontend UI components, Gemini API integration, schedule generation logic, or data modeling]. This project was my first taste of collaborative software development — combining teamwork, problem-solving, and late-night coding into something meaningful for students like us.
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
